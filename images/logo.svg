@@ -1,0 +1,41 @@
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Circuit pattern background -->
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Icon: Tech chip/circuit -->
+  <g id="chip-icon">
+    <rect x="8" y="15" width="30" height="30" rx="4" fill="url(#gradient1)"/>
+    <circle cx="15" cy="22" r="1.5" fill="white" opacity="0.8"/>
+    <circle cx="31" cy="22" r="1.5" fill="white" opacity="0.8"/>
+    <circle cx="15" cy="38" r="1.5" fill="white" opacity="0.8"/>
+    <circle cx="31" cy="38" r="1.5" fill="white" opacity="0.8"/>
+    <circle cx="23" cy="30" r="4" fill="white" opacity="0.9"/>
+
+    <!-- Circuit lines -->
+    <line x1="15" y1="22" x2="19" y2="26" stroke="white" stroke-width="1" opacity="0.6"/>
+    <line x1="31" y1="22" x2="27" y2="26" stroke="white" stroke-width="1" opacity="0.6"/>
+    <line x1="15" y1="38" x2="19" y2="34" stroke="white" stroke-width="1" opacity="0.6"/>
+    <line x1="31" y1="38" x2="27" y2="34" stroke="white" stroke-width="1" opacity="0.6"/>
+
+    <!-- External connections -->
+    <line x1="8" y1="20" x2="3" y2="20" stroke="url(#gradient1)" stroke-width="2"/>
+    <line x1="8" y1="30" x2="3" y2="30" stroke="url(#gradient1)" stroke-width="2"/>
+    <line x1="8" y1="40" x2="3" y2="40" stroke="url(#gradient1)" stroke-width="2"/>
+    <line x1="38" y1="20" x2="43" y2="20" stroke="url(#gradient1)" stroke-width="2"/>
+    <line x1="38" y1="30" x2="43" y2="30" stroke="url(#gradient1)" stroke-width="2"/>
+    <line x1="38" y1="40" x2="43" y2="40" stroke="url(#gradient1)" stroke-width="2"/>
+  </g>
+
+  <!-- Text -->
+  <text x="50" y="35" font-family="'Segoe UI', Arial, sans-serif" font-size="24" font-weight="700" fill="#2d3748">
+    TechNova
+  </text>
+  <text x="50" y="48" font-family="'Segoe UI', Arial, sans-serif" font-size="9" fill="#718096" letter-spacing="2">
+    INNOVATION HUB
+  </text>
+</svg>
