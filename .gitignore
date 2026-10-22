@@ -30,3 +30,6 @@ build/
 # System files
 Thumbs.db
 desktop.ini
+
+# Configuración local de asistentes (no se sube)
+.claude/
